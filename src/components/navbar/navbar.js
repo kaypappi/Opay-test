@@ -35,7 +35,7 @@ class Navbar extends Component {
     return (
       <div class="nav-holder hide-on-small-only">
         <div style={{background:this.state.white? 'white': '#00aeb5'}} class="navbar-wrapper">
-          <div style={{color:this.state.white? '#00aeb5': 'white'}} class="nav-left">OPay</div>
+          <NavLink to='/'><div style={{color:this.state.white? '#00aeb5': 'white'}} class="nav-left">OPay</div></NavLink>
           <div class="nav-right">
             <NavLink to="/">How it works</NavLink>
             <NavLink to="/">Developer</NavLink>

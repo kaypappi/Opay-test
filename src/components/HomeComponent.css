@@ -53,7 +53,7 @@
 }
 
 .home-wrapper .section1 {
-    background: url(/Opay-demo/static/media/curves1.b579f788.png);
+    background: url('../Assets/PNG/curves1.png');
     background-size: contain;
     padding: 0 100px
 }
@@ -168,7 +168,7 @@
 }
 
 .home-wrapper .section2 {
-    background: url(/Opay-demo/static/media/curves4.23c7e46a.png);
+    background: url('../Assets/PNG/curves4.png');
     background-size: cover;
     padding: 100px
 }
