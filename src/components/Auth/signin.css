@@ -1,0 +1,48 @@
+.signin-wrapper {
+    padding-top: 50px
+}
+
+.signin-wrapper .title {
+    color: #00aeb5;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px
+}
+
+.signin-wrapper label {
+    color: #2c3e50;
+    margin-bottom: 10px!important
+}
+
+.signin-wrapper input {
+    border: 1px solid #00aeb5!important;
+    border-radius: 3px!important;
+    margin-top: 10px!important
+}
+
+.signin-wrapper .submit {
+    width: 100%;
+    background: #00aeb5;
+    color: #fff;
+    outline: none;
+    border: 1px solid #00aeb5;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin-top: 30px
+}
+
+.signin-wrapper .no-account {
+    text-align: center
+}
+
+.signin-wrapper .no-account span a {
+    color: red;
+    cursor: pointer
+}
+
+.signin-wrapper .forgot-password {
+    text-align: center;
+    color: red;
+    cursor: pointer
+}

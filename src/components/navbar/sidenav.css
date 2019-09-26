@@ -1,0 +1,28 @@
+.sm-nav {
+    background: #00aeb5;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding: 20px 50px
+}
+
+.sm-nav .sm-left {
+    justify-self: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff
+}
+
+.sm-nav .sm-right {
+    justify-self: end
+}
+
+.sm-nav .sm-right img {
+    width: 30px;
+    height: 30px
+}
+
+.show-on-small .sidenav a {
+    display: block;
+    padding: 10px 50px;
+    border-bottom: 1px solid #000
+}

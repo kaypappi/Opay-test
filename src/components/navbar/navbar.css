@@ -1,0 +1,36 @@
+.navbar-wrapper {
+    position: relative;
+    top: 0;
+    z-index: 20000;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding: 20px 50px;
+    background: #00aeb5;
+}
+
+.navbar-wrapper .nav-left {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    align-self: center
+}
+
+.navbar-wrapper .nav-right {
+    color: #2c3e50;
+    justify-self: end;
+    align-self: center;
+    font-weight: 500
+}
+
+.navbar-wrapper .nav-right a {
+    color: #000;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.navbar-wrapper .nav-right .sign-up {
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px
+}
